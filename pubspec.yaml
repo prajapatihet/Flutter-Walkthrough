@@ -1,5 +1,5 @@
 name: my_first_package
-description: "A new Flutter package project."
+description: "A new Flutter package which helps developers in creating animated walkthrough of their app."
 version: 0.0.1
 homepage: https://github.com/prajapatihet/Flutter-Walkthrough
 

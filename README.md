@@ -1,39 +1,104 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# my_first_package
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A new Flutter package for both android and iOS which helps developers in creating animated walkthrough of their app.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+### Show some :heart: and star the repo to support the project
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Screenshots
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+<img src="ss1.png" height="300em" /> <img src="ss2.png" height="300em" />
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+[Example](https://github.com/prajapatihet/Flutter-Walkthrough/blob/master/example/example_app.dart)
 
-```dart
-const like = 'sample';
+To use this package :
+
+* add the dependency to your [pubspec.yaml](https://github.com/prajapatihet/Flutter-Walkthrough/blob/master/pubspec.yaml) file.
+
+```yaml
+  dependencies:
+    flutter:
+      sdk: flutter
+    flutter_walkthrough:
 ```
 
-## Additional information
+### How to use
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+class TestScreen extends StatelessWidget {
+  
+  /*here we have a list of walkthroughs which we want to have, 
+  each walkthrough have a title,content and an icon.
+  */
+  final List<Walkthrough> list = [
+    Walkthrough(
+      title: "Title 1",
+      content: "Content 1",
+      imageIcon: Icons.restaurant_menu,
+    ),
+    Walkthrough(
+      title: "Title 2",
+      content: "Content 2",
+      imageIcon: Icons.search,
+    ),
+    Walkthrough(
+      title: "Title 3",
+      content: "Content 3",
+      imageIcon: Icons.shopping_cart,
+    ),
+    Walkthrough(
+      title: "Title 4",
+      content: "Content 4",
+      imageIcon: Icons.verified_user,
+    ),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    //here we need to pass the list and the route for the next page to be opened after this.
+    return new IntroScreen(
+      list,
+      new MaterialPageRoute(builder: (context) => new TestScreen()),
+    );
+  }
+}
+```
+# Pull Requests
+
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request. Here are some basic rules to follow to ensure timely addition of your request:
+
+1.  Match coding style (braces, spacing, etc.) This is best achieved using `Reformat Code` feature of Android Studio `CMD`+`Option`+`L` on Mac and `CTRL` + `ALT` + `L` on Linux + Windows .
+2.  If its a feature, bugfix, or anything please only change code to what you specify.
+3.  Please keep PR titles easy to read and descriptive of changes, this will make them easier to merge :)
+4.  Pull requests _must_ be made against `develop` branch. Any other branch (unless specified by the maintainers) will get rejected.
+5.  Check for existing [issues](https://github.com/prajapatihet/Flutter-Walkthrough/issues) first, before filing an issue.
+6.  Make sure you follow the set standard as all other projects in this repo do
+7.  Have fun!
+
+### Created & Maintained By
+
+[Pawan Kumar](https://github.com/prajapatihet)
+
+# License
+
+    Copyright 2024 Hetkumar Prajapati
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+
+## Getting Started
+
+For help getting started with Flutter, view our online [documentation](https://flutter.io/).
+
+For help on editing package code, view the [documentation](https://flutter.io/developing-packages/).
