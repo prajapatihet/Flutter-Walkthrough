@@ -2,7 +2,7 @@ library my_first_package;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_first_package/walkthrough.dart';
+import 'package:new_walkthrough/walkthrough.dart';
 
 /// A Calculator.
 class IntroScreen extends StatefulWidget {

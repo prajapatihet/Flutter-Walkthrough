@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_package/my_first_package.dart';
-import 'package:my_first_package/walkthrough.dart';
+import 'package:new_walkthrough/my_first_package.dart';
+import 'package:new_walkthrough/walkthrough.dart';
 
 class TestScreen extends StatelessWidget {
   final List<Walkthrough> list = [
