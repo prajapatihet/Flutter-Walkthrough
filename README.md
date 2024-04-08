@@ -10,17 +10,17 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Usage
 
-[Example](https://github.com/prajapatihet/Flutter-Walkthrough/blob/master/example/example_app.dart)
+[Example](https://github.com/prajapatihet/Flutter-Walkthrough/blob/main/example/example_app.dart)
 
 To use this package :
 
-* add the dependency to your [pubspec.yaml](https://github.com/prajapatihet/Flutter-Walkthrough/blob/master/pubspec.yaml) file.
+* add the dependency to your [pubspec.yaml](https://github.com/prajapatihet/Flutter-Walkthrough/blob/main/pubspec.yaml) file.
 
 ```yaml
   dependencies:
     flutter:
       sdk: flutter
-    flutter_walkthrough:
+    new_walkthrough:
 ```
 
 ### How to use
@@ -78,7 +78,7 @@ I welcome and encourage all pull requests. It usually will take me within 24-48 
 
 ### Created & Maintained By
 
-[Pawan Kumar](https://github.com/prajapatihet)
+[Hetkumar Prajapati](https://github.com/prajapatihet)
 
 # License
 
