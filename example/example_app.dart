@@ -3,7 +3,7 @@ import 'package:new_walkthrough/my_first_package.dart';
 import 'package:new_walkthrough/walkthrough.dart';
 
 class TestScreen extends StatelessWidget {
-  final List<Walkthrough> list = [
+  final List<Walkthrough> list = const [
     Walkthrough(
       title: "Title 1",
       content: "Content 1",
@@ -26,11 +26,11 @@ class TestScreen extends StatelessWidget {
     ),
   ];
 
-  TestScreen({super.key});
+  const TestScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return IntroScreen(
         walkthroughList: list,
-        pageRoute: MaterialPageRoute(builder: (context) => TestScreen()));
+        pageRoute: MaterialPageRoute(builder: (context) => const TestScreen()));
   }
 }

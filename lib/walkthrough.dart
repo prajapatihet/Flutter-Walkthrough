@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_typing_uninitialized_variables
+
 import 'package:flutter/material.dart';
 
 class Walkthrough extends StatefulWidget {
@@ -5,7 +7,7 @@ class Walkthrough extends StatefulWidget {
   final content;
   final imageIcon;
   final imageColor;
-  Walkthrough({
+  const Walkthrough({
     super.key,
     this.title,
     this.content,

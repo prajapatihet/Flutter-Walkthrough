@@ -8,7 +8,7 @@ import 'package:new_walkthrough/walkthrough.dart';
 class IntroScreen extends StatefulWidget {
   final List<Walkthrough> walkthroughList;
   final MaterialPageRoute pageRoute;
-  IntroScreen({
+  const IntroScreen({
     super.key,
     required this.walkthroughList,
     required this.pageRoute,
@@ -53,9 +53,9 @@ class _IntroScreenState extends State<IntroScreen> {
           Expanded(
             flex: 3,
             child: PageView(
-              children: widget.walkthroughList,
               controller: controller,
               onPageChanged: _onPageChanged,
+              children: widget.walkthroughList,
             ),
           ),
           Expanded(
