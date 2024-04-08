@@ -6,7 +6,7 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Screenshots
 
-![Exmaple1](imgs/ss1.png =x300) |  ![Example2](imgs/ss2.png =x300)
+<img src="./imgs/ss1.png" height="300em" /> <img src="./imgs/ss2.png" height="300em" />
 
 ## Usage
 
