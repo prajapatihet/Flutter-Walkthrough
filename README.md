@@ -6,7 +6,7 @@ A new Flutter package for both android and iOS which helps developers in creatin
 
 ## Screenshots
 
-<img src="https://github.com/prajapatihet/Flutter-Walkthrough/blob/main/ss1.png" height="300em" /> <img src="https://github.com/prajapatihet/Flutter-Walkthrough/blob/main/ss2.png" height="300em" />
+![Exmaple1](imgs/ss1.png) |  ![Example2](imgs/ss2.png)
 
 ## Usage
 

@@ -1,3 +1,7 @@
+## [0.0.3] Release
+
+* Minor improvements
+
 ## [0.0.2] Release
 
 * Minor fixes and improvements
