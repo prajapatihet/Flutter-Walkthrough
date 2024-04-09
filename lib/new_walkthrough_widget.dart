@@ -2,9 +2,9 @@ library my_first_package;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:new_walkthrough/walkthrough.dart';
+import 'package:new_walkthrough/new_walkthrough.dart';
 
-/// A Calculator.
+/// A Walkthrough for most of thr application
 class IntroScreen extends StatefulWidget {
   final List<Walkthrough> walkthroughList;
   final MaterialPageRoute pageRoute;

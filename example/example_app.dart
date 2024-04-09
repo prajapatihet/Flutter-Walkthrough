@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_walkthrough/my_first_package.dart';
-import 'package:new_walkthrough/walkthrough.dart';
+import 'package:new_walkthrough/new_walkthrough_widget.dart';
+import 'package:new_walkthrough/new_walkthrough.dart';
 
 class TestScreen extends StatelessWidget {
   final List<Walkthrough> list = const [
@@ -15,7 +15,7 @@ class TestScreen extends StatelessWidget {
       imageIcon: Icons.search,
     ),
     Walkthrough(
-      title: "TItle 3",
+      title: "Title 3",
       content: "Content 3",
       imageIcon: Icons.shopping_cart,
     ),

@@ -1,3 +1,7 @@
+## [0.0.4] Release
+
+* Bug fixes
+
 ## [0.0.3] Release
 
 * Minor improvements

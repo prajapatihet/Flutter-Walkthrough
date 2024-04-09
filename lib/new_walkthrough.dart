@@ -19,6 +19,7 @@ class Walkthrough extends StatefulWidget {
   State<Walkthrough> createState() => _WalkthroughState();
 }
 
+/// It is used to show the walkthrough page with a text
 class _WalkthroughState extends State<Walkthrough>
     with SingleTickerProviderStateMixin {
   late Animation animation;

@@ -1,6 +1,6 @@
 name: new_walkthrough
 description: "A new Flutter package which helps developers in creating animated walkthrough of their app."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/prajapatihet/Flutter-Walkthrough
 
 environment:

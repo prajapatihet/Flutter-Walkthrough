@@ -1,12 +1,12 @@
-# my_first_package
+# new_walkthrough
 
 A new Flutter package for both android and iOS which helps developers in creating animated walkthrough of their app.
 
 ### Show some :heart: and star the repo to support the project
 
-## Screenshots
+<!-- ## Screenshots
 
-<img src="./imgs/ss1.png" height="300em" /> <img src="./imgs/ss2.png" height="300em" />
+<img src="./imgs/ss1.png" height="300em" /> <img src="./imgs/ss2.png" height="300em" /> -->
 
 ## Usage
 
